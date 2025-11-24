@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M. K. Khalidi Siam - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-blue-600">
+                    Khalidi Siam
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-blue-600 transition">Home</a>
+                    <a href="#skills" class="text-gray-700 hover:text-blue-600 transition">Skills</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600 transition">Services</a>
+                    <a href="#experience" class="text-gray-700 hover:text-blue-600 transition">Experience</a>
+                    <a href="#projects" class="text-gray-700 hover:text-blue-600 transition">Projects</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                <a href="#home" class="block py-2 text-gray-700 hover:text-blue-600 transition">Home</a>
+                <a href="#skills" class="block py-2 text-gray-700 hover:text-blue-600 transition">Skills</a>
+                <a href="#services" class="block py-2 text-gray-700 hover:text-blue-600 transition">Services</a>
+                <a href="#experience" class="block py-2 text-gray-700 hover:text-blue-600 transition">Experience</a>
+                <a href="#projects" class="block py-2 text-gray-700 hover:text-blue-600 transition">Projects</a>
+                <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600 transition">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-12 md:pt-32 md:pb-20 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
+                        Hi, I'm <span class="text-blue-600">M. K. Khalidi Siam</span>
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-600 mb-6">
+                        Full Stack Developer & AI Enthusiast
+                    </p>
+                    <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                        Tech enthusiast with a solid foundation in programming and problem-solving. Passionate about Large Language Models (LLMs) and their efficiency, with a keen interest in exploring their deployment on edge devices.
+                    </p>
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                        <a href="#contact" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition">
+                            Get In Touch
+                        </a>
+                        <a href="#projects" class="bg-white text-blue-600 px-8 py-3 rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition">
+                            View Projects
+                        </a>
+                    </div>
+                    <div class="flex justify-center md:justify-start gap-4 mt-6">
+                        <a href="https://github.com/Khalidi-Siam" target="_blank" class="text-gray-700 hover:text-blue-600 transition">
+                            <i class="fab fa-github text-3xl"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/m-k-khalidi-siam" target="_blank" class="text-gray-700 hover:text-blue-600 transition">
+                            <i class="fab fa-linkedin text-3xl"></i>
+                        </a>
+                        <a href="mailto:siam074@yahoo.com" class="text-gray-700 hover:text-blue-600 transition">
+                            <i class="fas fa-envelope text-3xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full flex items-center justify-center shadow-2xl">
+                        <!-- <i class="fas fa-user text-white text-9xl"></i> -->
+                         <img src="./assets/pp.jpg" alt="Profile Picture" class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                My <span class="text-blue-600">Skills</span>
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Programming Languages -->
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-code text-blue-600 text-3xl mr-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">Programming Languages</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> C</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Python</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Java</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> JavaScript</li>
+                    </ul>
+                </div>
+
+                <!-- Web Technologies -->
+                <div class="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-globe text-green-600 text-3xl mr-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">Web Technologies</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i> HTML & CSS</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i> Django</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i> Express.js</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i> MERN Stack</li>
+                    </ul>
+                </div>
+
+                <!-- AI & ML Tools -->
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-brain text-purple-600 text-3xl mr-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">AI & ML Tools</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i> PyTorch</li>
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i> NLTK</li>
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i> NumPy & Pandas</li>
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i> LoRA Fine-Tuning</li>
+                    </ul>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="bg-gradient-to-br from-orange-50 to-red-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-tools text-orange-600 text-3xl mr-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">Tools & Platforms</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-orange-600 mr-2"></i> Git & GitHub</li>
+                        <li class="flex items-center"><i class="fas fa-check text-orange-600 mr-2"></i> Postman</li>
+                        <li class="flex items-center"><i class="fas fa-check text-orange-600 mr-2"></i> MySQL</li>
+                        <li class="flex items-center"><i class="fas fa-check text-orange-600 mr-2"></i> Google Workspace</li>
+                    </ul>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="bg-gradient-to-br from-yellow-50 to-amber-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-users text-yellow-600 text-3xl mr-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">Soft Skills</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-yellow-600 mr-2"></i> Teamwork</li>
+                        <li class="flex items-center"><i class="fas fa-check text-yellow-600 mr-2"></i> Problem-Solving</li>
+                        <li class="flex items-center"><i class="fas fa-check text-yellow-600 mr-2"></i> Critical Thinking</li>
+                        <li class="flex items-center"><i class="fas fa-check text-yellow-600 mr-2"></i> Communication</li>
+                    </ul>
+                </div>
+
+                <!-- Research & Development -->
+                <div class="bg-gradient-to-br from-cyan-50 to-teal-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-microscope text-cyan-600 text-3xl mr-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">Research & Development</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-cyan-600 mr-2"></i> LLM Pruning</li>
+                        <li class="flex items-center"><i class="fas fa-check text-cyan-600 mr-2"></i> Model Optimization</li>
+                        <li class="flex items-center"><i class="fas fa-check text-cyan-600 mr-2"></i> Edge AI</li>
+                        <li class="flex items-center"><i class="fas fa-check text-cyan-600 mr-2"></i> Fine-Tuning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                What I <span class="text-blue-600">Offer</span>
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Web Development -->
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="text-blue-600 text-5xl mb-4">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Web Development</h3>
+                    <p class="text-gray-600 mb-4">
+                        Building responsive and dynamic web applications using Django, MERN stack, and modern web technologies.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start"><i class="fas fa-angle-right text-blue-600 mr-2 mt-1"></i> Full Stack Development</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-blue-600 mr-2 mt-1"></i> RESTful API Design</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-blue-600 mr-2 mt-1"></i> Database Integration</li>
+                    </ul>
+                </div>
+
+                <!-- AI/ML Solutions -->
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="text-purple-600 text-5xl mb-4">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">AI/ML Solutions</h3>
+                    <p class="text-gray-600 mb-4">
+                        Developing and optimizing machine learning models, with a focus on Large Language Models and their deployment.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start"><i class="fas fa-angle-right text-purple-600 mr-2 mt-1"></i> LLM Fine-Tuning</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-purple-600 mr-2 mt-1"></i> Model Optimization</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-purple-600 mr-2 mt-1"></i> Data Analysis</li>
+                    </ul>
+                </div>
+
+                <!-- Tutoring & Mentoring -->
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="text-green-600 text-5xl mb-4">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Tutoring & Mentoring</h3>
+                    <p class="text-gray-600 mb-4">
+                        Teaching programming fundamentals, data structures, algorithms, and guiding students through their learning journey.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start"><i class="fas fa-angle-right text-green-600 mr-2 mt-1"></i> OOP Concepts</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-green-600 mr-2 mt-1"></i> Data Structures & Algorithms</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-green-600 mr-2 mt-1"></i> Problem-Solving</li>
+                    </ul>
+                </div>
+
+                <!-- Code Review -->
+                <!-- <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="text-orange-600 text-5xl mb-4">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Code Review</h3>
+                    <p class="text-gray-600 mb-4">
+                        Providing detailed code reviews and suggestions to improve code quality, performance, and maintainability.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start"><i class="fas fa-angle-right text-orange-600 mr-2 mt-1"></i> Best Practices</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-orange-600 mr-2 mt-1"></i> Performance Optimization</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-orange-600 mr-2 mt-1"></i> Security Analysis</li>
+                    </ul>
+                </div> -->
+
+                <!-- Technical Consultation -->
+                <!-- <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="text-indigo-600 text-5xl mb-4">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Technical Consultation</h3>
+                    <p class="text-gray-600 mb-4">
+                        Offering expert advice on technology stack selection, architecture design, and project planning.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start"><i class="fas fa-angle-right text-indigo-600 mr-2 mt-1"></i> Tech Stack Selection</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-indigo-600 mr-2 mt-1"></i> System Architecture</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-indigo-600 mr-2 mt-1"></i> Project Planning</li>
+                    </ul>
+                </div> -->
+
+                <!-- Research Collaboration -->
+                <!-- <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="text-red-600 text-5xl mb-4">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Research Collaboration</h3>
+                    <p class="text-gray-600 mb-4">
+                        Collaborating on research projects related to LLM optimization, model pruning, and edge AI deployment.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start"><i class="fas fa-angle-right text-red-600 mr-2 mt-1"></i> LLM Pruning Research</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-red-600 mr-2 mt-1"></i> Model Efficiency</li>
+                        <li class="flex items-start"><i class="fas fa-angle-right text-red-600 mr-2 mt-1"></i> Edge Deployment</li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                Work <span class="text-blue-600">Experience</span>
+            </h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-lg shadow-lg">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-2">Student Tutor</h3>
+                            <p class="text-lg text-blue-600 font-semibold">Department of Computer Science and Engineering</p>
+                            <p class="text-gray-600">BRAC University, Dhaka, Bangladesh</p>
+                        </div>
+                        <div class="mt-4 md:mt-0">
+                            <span class="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                                Jun 2024 - Sept 2025
+                            </span>
+                        </div>
+                    </div>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mr-3 mt-1"></i>
+                            <span>Mentored undergraduate students in object-oriented programming concepts, data structures and algorithms</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mr-3 mt-1"></i>
+                            <span>Strengthened personal communication and analytical skills through regular interactions and problem-solving discussions</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 md:py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                Featured <span class="text-blue-600">Projects</span>
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <!-- Real Estate Management System -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="bg-gradient-to-r from-blue-500 to-indigo-600 p-6">
+                        <h3 class="text-2xl font-bold text-white mb-2">Real Estate Management System</h3>
+                        <p class="text-blue-100">Django-based Web Application</p>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">
+                            Collaborated on a comprehensive web application for property listings, reviews, and online auctions with integrated payment processing.
+                        </p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-start text-gray-600">
+                                <i class="fas fa-caret-right text-blue-600 mr-2 mt-1"></i>
+                                <span>User authentication and authorization</span>
+                            </li>
+                            <li class="flex items-start text-gray-600">
+                                <i class="fas fa-caret-right text-blue-600 mr-2 mt-1"></i>
+                                <span>Advanced search filters for properties</span>
+                            </li>
+                            <li class="flex items-start text-gray-600">
+                                <i class="fas fa-caret-right text-blue-600 mr-2 mt-1"></i>
+                                <span>Stripe payment integration</span>
+                            </li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Django</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Python</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Stripe API</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="https://github.com/Khalidi-Siam/Real-Estate-Management-System" target="_blank" class="flex items-center text-gray-700 hover:text-blue-600 transition">
+                                <i class="fab fa-github mr-2"></i> GitHub
+                            </a>
+                            <a href="https://hunters-realestate.onrender.com/" target="_blank" class="flex items-center text-gray-700 hover:text-blue-600 transition">
+                                <i class="fas fa-external-link-alt mr-2"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Neighbourhood Incident Tracker -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="bg-gradient-to-r from-green-500 to-emerald-600 p-6">
+                        <h3 class="text-2xl font-bold text-white mb-2">Neighbourhood Incident Tracker</h3>
+                        <p class="text-green-100">MERN Stack Application</p>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">
+                            Developed a community-driven application for reporting incidents in real-time, displayed on an interactive map with severity levels.
+                        </p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-start text-gray-600">
+                                <i class="fas fa-caret-right text-green-600 mr-2 mt-1"></i>
+                                <span>Real-time incident reporting and mapping</span>
+                            </li>
+                            <li class="flex items-start text-gray-600">
+                                <i class="fas fa-caret-right text-green-600 mr-2 mt-1"></i>
+                                <span>Upvoting/downvoting and commenting features</span>
+                            </li>
+                            <li class="flex items-start text-gray-600">
+                                <i class="fas fa-caret-right text-green-600 mr-2 mt-1"></i>
+                                <span>Admin review for false incident reports</span>
+                            </li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">MongoDB</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Express.js</span>
+                            <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm">React</span>
+                            <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm">Node.js</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="https://github.com/Khalidi-Siam/RealTime-Neighbourhood-Incident-Tracker" target="_blank" class="flex items-center text-gray-700 hover:text-green-600 transition">
+                                <i class="fab fa-github mr-2"></i> GitHub
+                            </a>
+                            <a href="https://realtime-neighbourhood-incident-tracker-6hfe.onrender.com/" target="_blank" class="flex items-center text-gray-700 hover:text-green-600 transition">
+                                <i class="fas fa-external-link-alt mr-2"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Thesis & Research -->
+            <!-- <div class="max-w-6xl mx-auto mt-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="bg-gradient-to-r from-purple-500 to-pink-600 p-6">
+                        <h3 class="text-2xl font-bold text-white mb-2">Thesis & Research</h3>
+                        <p class="text-purple-100">Exploring the Limits of Pruning: Model Breakdown Analysis and Recovery in LLMs</p>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">
+                            Research focused on exploring neuron pruning to reduce LLM model size and analyzing pruned model behavior including degeneration loops.
+                        </p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-start text-gray-600">
+                                <i class="fas fa-caret-right text-purple-600 mr-2 mt-1"></i>
+                                <span>Investigating neuron pruning techniques for Large Language Models</span>
+                            </li>
+                            <li class="flex items-start text-gray-600">
+                                <i class="fas fa-caret-right text-purple-600 mr-2 mt-1"></i>
+                                <span>Analyzing pruned model behavior and degeneration loops</span>
+                            </li>
+                            <li class="flex items-start text-gray-600">
+                                <i class="fas fa-caret-right text-purple-600 mr-2 mt-1"></i>
+                                <span>Hands-on experience with LoRA fine-tuning, PyTorch, and Hugging Face models</span>
+                            </li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">PyTorch</span>
+                            <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm">LLMs</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">LoRA</span>
+                            <span class="bg-violet-100 text-violet-800 px-3 py-1 rounded-full text-sm">Hugging Face</span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                Education & <span class="text-blue-600">Certifications</span>
+            </h2>
+            
+            <!-- Education -->
+            <div class="max-w-4xl mx-auto mb-12">
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-lg shadow-lg">
+                    <div class="flex items-start">
+                        <div class="bg-blue-600 text-white rounded-full p-4 mr-6">
+                            <i class="fas fa-graduation-cap text-3xl"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-2">Bachelor of Science in Computer Science and Engineering</h3>
+                            <p class="text-lg text-blue-600 font-semibold mb-2">BRAC University, Dhaka, Bangladesh</p>
+                            <span class="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                                Oct 2021 - Oct 2025
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="max-w-4xl mx-auto">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">Professional Certifications</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Neural Networks -->
+                    <div class="bg-white border-2 border-gray-200 p-6 rounded-lg hover:border-blue-600 transition">
+                        <div class="flex items-start">
+                            <i class="fas fa-certificate text-blue-600 text-2xl mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-2">Neural Networks and Deep Learning</h4>
+                                <p class="text-gray-600 text-sm mb-2">Coursera (2024)</p>
+                                <a href="https://coursera.org/share/27979241a0371baa3701bd4de929e86b" target="_blank" class="text-blue-600 hover:underline text-sm">
+                                    View Certificate <i class="fas fa-external-link-alt text-xs"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- OOP in Java -->
+                    <div class="bg-white border-2 border-gray-200 p-6 rounded-lg hover:border-blue-600 transition">
+                        <div class="flex items-start">
+                            <i class="fas fa-certificate text-green-600 text-2xl mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-2">OOP in Java Specialization</h4>
+                                <p class="text-gray-600 text-sm mb-2">Coursera (2024)</p>
+                                <a href="https://coursera.org/share/4d089345056c8ee4fd7559bf0f77cd03" target="_blank" class="text-blue-600 hover:underline text-sm">
+                                    View Certificate <i class="fas fa-external-link-alt text-xs"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- LLM Fine-Tuning -->
+                    <div class="bg-white border-2 border-gray-200 p-6 rounded-lg hover:border-blue-600 transition md:col-span-2">
+                        <div class="flex items-start">
+                            <i class="fas fa-certificate text-purple-600 text-2xl mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-2">LLM Fine-Tuning and Customization Training</h4>
+                                <p class="text-gray-600 text-sm mb-2">Coursera (2025)</p>
+                                <a href="https://coursera.org/share/175bb5a845860ecc30cc20835b154991" target="_blank" class="text-blue-600 hover:underline text-sm">
+                                    View Certificate <i class="fas fa-external-link-alt text-xs"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-20 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                Get In <span class="text-blue-600">Touch</span>
+            </h2>
+            <div class="max-w-5xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Contact Info -->
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-600 text-white rounded-full p-3 mr-4">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">Email</h4>
+                                    <a href="mailto:siam074@yahoo.com" class="text-gray-600 hover:text-blue-600 transition">
+                                        siam074@yahoo.com
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="bg-blue-600 text-white rounded-full p-3 mr-4">
+                                    <i class="fas fa-phone text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">Phone</h4>
+                                    <p class="text-gray-600">+880 1581449909</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="bg-blue-600 text-white rounded-full p-3 mr-4">
+                                    <i class="fas fa-map-marker-alt text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">Location</h4>
+                                    <p class="text-gray-600">Dhaka, Bangladesh</p>
+                                </div>
+                            </div>
+
+                            <div class="pt-4">
+                                <h4 class="font-bold text-gray-800 mb-4">Connect With Me</h4>
+                                <div class="flex gap-4">
+                                    <a href="https://github.com/Khalidi-Siam" target="_blank" class="bg-gray-800 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-700 transition">
+                                        <i class="fab fa-github text-xl"></i>
+                                    </a>
+                                    <a href="https://linkedin.com/in/m-k-khalidi-siam" target="_blank" class="bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-blue-600 transition">
+                                        <i class="fab fa-linkedin text-xl"></i>
+                                    </a>
+                                    <a href="mailto:siam074@yahoo.com" class="bg-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-red-500 transition">
+                                        <i class="fas fa-envelope text-xl"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Send Me a Message</h3>
+                        <form action="https://formspree.io/f/xwpjleao" method="POST" class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+                                <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="your.email@example.com">
+                            </div>
+                            <div>
+                                <label for="subject" class="block text-gray-700 font-semibold mb-2">Subject</label>
+                                <input type="text" id="subject" name="subject" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Subject">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+                                <textarea id="message" name="message" required rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Your message..."></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition font-semibold">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- About -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">M. K. Khalidi Siam</h3>
+                    <p class="text-gray-400">
+                        Full Stack Developer & AI Enthusiast passionate about building innovative solutions and exploring the frontiers of artificial intelligence.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#skills" class="text-gray-400 hover:text-white transition">Skills</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="#experience" class="text-gray-400 hover:text-white transition">Experience</a></li>
+                        <li><a href="#projects" class="text-gray-400 hover:text-white transition">Projects</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            siam074@yahoo.com
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-2"></i>
+                            +880 1581449909
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            Dhaka, Bangladesh
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-8 text-center">
+                <p class="text-gray-400">
+                    &copy; 2025 M. K. Khalidi Siam. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
