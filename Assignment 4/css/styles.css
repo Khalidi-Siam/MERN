@@ -1,0 +1,29 @@
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+#recipeModal:not(.hidden) .modal-content {
+    animation: modalFadeIn 0.3s ease-out;
+}
+
+#recipeModal {
+    transition: opacity 0.3s ease-out;
+}
+
+/* Scroll to Top Button */
+#scrollToTopBtn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#scrollToTopBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
