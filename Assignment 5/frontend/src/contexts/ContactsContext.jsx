@@ -65,6 +65,8 @@ export const ContactsProvider = ({ children }) => {
                 }),
             });
             if (response.ok) {
+                // Clear search term to show all contacts including the new one
+                setSearchTerm("");
                 await getAllContacts();
                 return true;
             }
@@ -87,6 +89,8 @@ export const ContactsProvider = ({ children }) => {
                 body: JSON.stringify(contactData),
             });
             if (response.ok) {
+                // Clear search term to ensure updated contact is visible
+                setSearchTerm("");
                 await getAllContacts(); 
                 setEditingContact(null);
                 return true;

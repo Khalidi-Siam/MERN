@@ -1,12 +1,17 @@
 
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import IndividualContact from "./IndividualContact";
 import { useContacts } from "../contexts/ContactsContext";
 
 export default function AllContacts() {
-  const { contacts, filter, setFilter, setSearchTerm } = useContacts();
+  const { contacts, filter, setFilter, searchTerm, setSearchTerm } = useContacts();
   const [inputValue, setInputValue] = useState("");
+
+  // Update input value when searchTerm changes (e.g., when cleared)
+  useEffect(() => {
+    setInputValue(searchTerm);
+  }, [searchTerm]);
 
   return (
     <main className="py-5">
