@@ -1,0 +1,92 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "firstName": "Frederick",
+      "lastName": "Jerde",
+      "email": "frederick@test.com",
+      "phone": "54545454",
+      "address": "456 Oak Avenue, Rivertown"
+    },
+    {
+      "id": 2,
+      "firstName": "Odie",
+      "lastName": "Koss",
+      "email": "odie@test.com",
+      "phone": "64646464",
+      "address": "22 Maple Lane, Hillview",
+      "createdAt": "2024-01-08T10:10:00Z"
+    },
+    {
+      "id": 3,
+      "firstName": "Edna",
+      "lastName": "Ondricka",
+      "email": "edna@test.com",
+      "phone": "58595858",
+      "address": "900 Sunset Boulevard, Brookfield",
+      "createdAt": "2024-01-10T16:20:00Z"
+    },
+    {
+      "id": 4,
+      "firstName": "Khalidi",
+      "lastName": "Siam",
+      "email": "siam@gmail.com",
+      "phone": "01581449909",
+      "address": "sfwsfs",
+      "createdAt": "2026-01-27T14:39:40.169Z"
+    },
+    {
+      "id": 5,
+      "firstName": "Sifat",
+      "lastName": "Mozahidi",
+      "email": "sifat@gmail.com",
+      "phone": "01707006063",
+      "address": "fs,mfls"
+    },
+    {
+      "id": 6,
+      "firstName": "Test",
+      "lastName": "Test",
+      "email": "test@gmail.com",
+      "phone": "fklsdfkls",
+      "address": "51020",
+      "createdAt": "2026-02-01T14:15:51.868Z"
+    },
+    {
+      "id": 7,
+      "firstName": "Lara",
+      "lastName": "Croft",
+      "email": "lara.croft@gmail.com",
+      "phone": "1234567890",
+      "address": "12 Adventure Road, Tombsville",
+      "createdAt": "2025-06-15T09:00:00Z"
+    },
+    {
+      "id": 8,
+      "firstName": "Bruce",
+      "lastName": "Wayne",
+      "email": "bruce@wayneenterprises.com",
+      "phone": "0987654321",
+      "address": "1007 Mountain Drive, Gotham",
+      "createdAt": "2025-12-01T12:30:00Z"
+    },
+    {
+      "id": 9,
+      "firstName": "Diana",
+      "lastName": "Prince",
+      "email": "diana.prince@amazon.com",
+      "phone": "5551234567",
+      "address": "Themyscira Island",
+      "createdAt": "2025-11-10T08:45:00Z"
+    },
+    {
+      "id": 10,
+      "firstName": "Clark",
+      "lastName": "Kent",
+      "email": "clark.kent@dailyplanet.com",
+      "phone": "5559876543",
+      "address": "344 Clinton Street, Metropolis",
+      "createdAt": "2025-09-22T15:20:00Z"
+    }
+  ]
+}
